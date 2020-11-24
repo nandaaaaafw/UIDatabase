@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+     display: flex;
+     align-items: center;
+     padding: 20px;
+     margin-left: 75px;
+     margin-right: 75px;
+
+}
+.logo{
+     display: flex;
+     align-items: center;
+     padding: 20px;
+     font-family: Fredoka One;
+     font-size: 20px;
+     color:  #132743;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+width: 71px;
+height: 19px;
+font-family: Poppins;
+font-style: bold;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+}
+nav ul li a:active{
+    color: #00a8cc;
+}
+nav ul li a:hover{
+    color: #00a8cc;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.prod h2{
+    text-align: center;
+    color: orangered;
+    margin-bottom: 50px;
+    font-family: Poppins;
+    color: #132743;
+}
+.prod .button:hover{
+    background: black;
+}
+.prod1 img{
+    width: 300px;
+    margin-left: 50px;
+}
+.prod1 h4{
+    margin-left: 10px;
+    text-align: center;
+    font-family: Inter
+}
+.prod1 p{
+    text-align: center;
+    font-family: Inter
+}
+.prod1 .fas{
+    color: yellow;
+    margin-bottom: 30px; 
+    }
+.prod1 .button{
+    background-color: #00a8cc;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 115px;
+    border-radius: 20px;
+    font-family: Inter;  
+}
+.prod2 img{
+    width: 250px;
+    margin-left: 40px; 
+}
+.prod2 h4{
+    margin-left: 10px;
+    text-align: center;
+    font-family: Inter 
+}
+.prod2 p{
+    text-align: center;
+    font-family: Inter
+}
+.prod2 .fas{
+    color: yellow;
+    margin-bottom: 30px;  
+}
+.prod2 .button{
+    background-color: #00a8cc;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+    border-radius: 20px;
+    font-family: Inter;  
+}
+.prod3 img{
+    width: 300px;
+}
+.prod3 h4{
+    margin-left: 10px;
+    text-align: center;
+    font-family: Inter
+}
+
+.prod3 p{
+    text-align: center;
+    font-family: Inter
+}
+.prod3 .fas{
+    color: yellow;
+    margin-bottom: 30px; 
+}
+.prod3 .button{
+    background-color: #00a8cc;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+    border-radius: 20px;
+    font-family: Inter;  
+}
+.prod4 img{
+    width: 300px;
+    margin right: 80px;
+}
+.prod4 h4{
+    margin-left: 10px;
+    text-align: center;
+    font-family: Inter 
+}
+.prod4 p{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: Inter
+}
+.prod4 .fas{
+    color: yellow;
+    margin-bottom: 30px; 
+}
+.prod4 .button{
+    background-color: #00a8cc;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+    border-radius: 20px;
+    font-family: Inter; 
+}
+.prod5 img{
+    width: 300px;
+    margin-left: 50px;
+}
+.prod5 h4{
+    margin-left: 10px;
+    text-align: center;
+    font-family: Inter 
+}
+.prod5 p{
+    text-align: center;
+    font-family: Inter
+}
+.prod5 .fas{
+    color: yellow;
+    margin-bottom: 30px; 
+}
+.prod5 .button{
+    background-color: #00a8cc;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 115px;
+    border-radius: 20px;
+    font-family: Inter;    
+}
+.prod6 img{
+    width: 300px;
+    margin-top: 30px;
+}
+.prod6 h4{
+    text-align: center;
+    font-family: Inter
+}
+.prod6 p{
+    text-align: center;
+    font-family: Inter
+}
+.prod6 .fas{
+    color: yellow;
+    margin-bottom: 30px; 
+}
+.prod6 .button{
+    background-color: #00a8cc;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+    border-radius: 20px;
+    font-family: Inter;    
+}
+.prod7 img{
+    width: 300px;
+    margin-top: 30px;
+}
+.prod7 h4{
+    text-align: center;
+    font-family: Inter
+}
+.prod7 p{
+    text-align: center;
+    font-family: Inter
+}
+.prod7.fas{
+    color: yellow;
+    margin-bottom: 30px;
+}
+.prod7 .button{
+    background-color: #00a8cc;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+    border-radius: 20px;
+    font-family: Inter;  
+}
+.prod8 img{
+    width: 280px;
+    height: 230px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.prod8 h4{
+    text-align: center;
+    font-family: Inter
+}
+.prod8 p{
+    text-align: center;
+    font-family: Inter
+}
+.prod8 .fas{
+    color: yellow;
+    margin-bottom: 30px;
+}
+.prod8 .button{
+    background-color: #00a8cc;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+    border-radius: 20px;
+    font-family: Inter;   
+}

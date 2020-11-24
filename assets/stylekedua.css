@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+     display: flex;
+     align-items: center;
+     padding: 20px;
+
+}
+.logo{
+     display: flex;
+     align-items: center;
+     padding: 20px;
+     font-family: Fredoka One;
+     font-size: 20px;
+     color:  #132743;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+width: 71px;
+height: 19px;
+font-family: Poppins;
+font-style: bold;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+}
+nav ul li a:active{
+    color: #00a8cc;
+}
+nav ul li a:hover{
+    color: #00a8cc;
+}
+
+.container{
+    max-width: 1250px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.ok h1{
+        width: 470px;
+        height: 130px;
+        left: 180px;
+        top: 225px;
+        margin-left: 30px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 120%;
+}
+.ok p{
+    width: 381px;
+    height: 96px;
+    left: 180px;
+    top: 375px;
+    margin-left: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%; 
+}
+.ok .button{
+    margin-left: 29px;
+    background: #00a8cc;
+    padding: 8px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+}
+.ok .button:hover{
+    background: black;
+}
+.foto img{
+    width: 500px;
+    margin-left: 100px;
+
+}
+.bar img{
+    margin-top: 80px;
+    width: 250px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+.prod h2{
+    text-align: center;
+    color: #142850;
+    margin-bottom: 50px;
+    font-family: Poppins;
+}
+
+.prod img{
+    width: 250px;
+}
+.prod h4{
+    margin-left: 10px;
+    text-align: center;
+    font-family: Inter;
+}
+.prod p{
+    text-align: center;
+    font-family: Inter
+}
+.prod .fas{
+color: yellow;
+margin-bottom: 30px;
+
+}
+.prod .button{
+    background-color: #00a8cc;
+    padding: 5px 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    margin-left: 70px;
+    font-family: Inter;
+    border-radius: 20px;
+}
+.prod .button:hover{
+    background: black;
+}
+.banner img{
+    position: relative;
+    width: 500px;
+    height: 450px;
+    margin: 50px 30px;
+    margin-left: 400px;
+}
+.banyak .button{
+background-color: #00a8cc;
+padding: 8px 30px;
+text-decoration: none;
+color: white;
+margin-left: 550px;
+font-family: Inter;
+border-radius: 10px;
+}
+.banyak .button:hover{
+    background: black;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about h2{
+   text-align: center;
+   color: #142850; 
+   font-family: Poppins;
+}
+.about p{
+    margin: 30px 100px;
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+/* or 29px */
+
+text-align: center;
+}
+.kontak{
+    background-color: #bbded6;
+}
+.kontak h2{
+    text-align: center;
+    color: #142850;
+    font-family: Poppins;
+}
+.kontak h4{
+    text-align: center;
+    color: #142850;
+    font-family: Poppins;
+}
+.kontak p{
+    text-align: left;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+}
+.kontak form{
+   margin-left: 500px;
+}
+.kontak img{
+  width: 300px;
+  margin-left: 650px;
+  margin-bottom: 30px;
+  
+}
+.footer .fab{
+    margin: 10px 8px;
+}
+.footer p{
+    margin-left: 350px;
+    font-family: Poppins;
+    font-size: 14px;
+}
